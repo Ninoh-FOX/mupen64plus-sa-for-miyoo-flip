@@ -1,0 +1,110 @@
+ __  __                         __   _  _   ____  _             
+|  \/  |_   _ _ __   ___ _ __  / /_ | || | |  _ \| |_   _ ___ 
+| |\/| | | | | '_ \ / _ \ '_ \| '_ \| || |_| |_) | | | | / __|  
+| |  | | |_| | |_) |  __/ | | | (_) |__   _|  __/| | |_| \__ \  
+|_|  |_|\__,_| .__/ \___|_| |_|\___/   |_| |_|   |_|\__,_|___/  
+             |_|         https://mupen64plus.org/               
+Mupen64Plus Console User-Interface Version 2.6.0
+
+UI-Console: attached to core library 'Mupen64Plus Core' version 2.6.0
+UI-Console:             Includes support for Dynamic Recompiler.
+Core: Using full mem base
+Core: Goodname: Mario Kart 64 (E) (V1.1) [!]
+Core: Name: MARIOKART64         
+Core: MD5: 2BB149A583FDEFEA96805F628FE42FD9
+Core: CRC: 2577C7D4 D18FAAAE
+Core: Imagetype: .v64 (byteswapped)
+Core: Rom size: 12582912 bytes (or 12 Mb or 96 Megabits)
+Core: Version: 1446
+Core: Manufacturer: Nintendo
+Core: Country: Europe (0x50)
+UI-Console Status: Cheat codes disabled.
+UI-Console: using Video plugin: 'Mupen64Plus OpenGL Video Plugin by Rice' v2.6.0
+UI-Console: using Audio plugin: 'Mupen64Plus SDL Audio Plugin' v2.5.9
+Input: Using auto-config file at: './InputAutoCfg.ini'
+UI-Console: using Input plugin: 'Mupen64Plus SDL Input Plugin' v2.6.0
+UI-Console: using RSP plugin: 'Hacktarux/Azimer High-Level Emulation RSP Plugin' v2.6.0
+Core Warning: Input plugin does not contain VRU support.
+Core: input plugin did not specify a render callback; there will be no on screen display by the input plugin.
+Input: 1 SDL joysticks were found.
+Input: Using auto-config file at: './InputAutoCfg.ini'
+Input: N64 Controller #1: Using auto-config with SDL joystick 0 ('Xbox 360 Controller')
+Input: 1 controller(s) found, 1 plugged in and usable in the emulator
+Input Warning: Joystick #1 doesn't support rumble effect
+Input Warning: Joystick #2 doesn't support rumble effect
+Input Warning: Joystick #3 doesn't support rumble effect
+Input Warning: Joystick #4 doesn't support rumble effect
+Input: Mupen64Plus SDL Input Plugin version 2.6.0 initialized.
+RSP: RSP Fallback disabled !
+Core: Using video capture backend: dummy
+Core: Game controller 0 (Standard controller) has a Memory pak plugged in
+Core: Game controller 1 (Standard controller) has a Memory pak plugged in
+Core: Game controller 2 (Standard controller) has a Memory pak plugged in
+Core: Game controller 3 (Standard controller) has a Memory pak plugged in
+Core: Using CIC type X102
+Core Error: ConfigGetParamInt(): Parameter 'ResolutionWidth' not found!
+Core Error: ConfigGetParamInt(): Parameter 'VerticalOffset' not found!
+Video: Disabled SSE processing.
+Video: ROM (CRC d4c77725aeaa8fd1-50) not found in INI file
+Video: Enabled hacks for game: 'MARIOKART64'
+Video: Initializing OpenGL Device Context.
+SDL_UDEV_DEVICEADDED 2 /dev/input/event3
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 2 /dev/input/event4
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio1
+SDL_UDEV_DEVICEADDED 8 /dev/dsp1
+SDL_UDEV_DEVICEADDED 8 /dev/mixer1
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC1D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event6
+SDL_UDEV_DEVICEADDED 4 /dev/input/event5
+SDL_UDEV_DEVICEADDED 4 /dev/input/js0
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+Core: Setting 32-bit video mode: 640x480
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.Video Warning: Failed to set GL_DEPTH_SIZE to 16. (it's 24)
+Video: Using OpenGL: Mali-G52 - OpenGL ES 3.2 v1.g2p0-01eac0.02b077cea4dc2127696dc49c93c0fc7a : ARM
+Audio: Using resampler speex
+Audio: Initializing SDL audio subsystem...
+SDL_UDEV_DEVICEADDED 2 /dev/input/event3
+SDL_UDEV_DEVICEADDED 2 /dev/input/event2
+SDL_UDEV_DEVICEADDED 2 /dev/input/event4
+SDL_UDEV_DEVICEADDED 2 /dev/input/event0
+SDL_UDEV_DEVICEADDED 2 /dev/input/event1
+SDL_UDEV_DEVICEADDED 8 /dev/audio1
+SDL_UDEV_DEVICEADDED 8 /dev/dsp1
+SDL_UDEV_DEVICEADDED 8 /dev/mixer1
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC1D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC1
+SDL_UDEV_DEVICEADDED 8 /dev/audio
+SDL_UDEV_DEVICEADDED 8 /dev/dsp
+SDL_UDEV_DEVICEADDED 8 /dev/mixer
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0c
+SDL_UDEV_DEVICEADDED 8 /dev/snd/pcmC0D0p
+SDL_UDEV_DEVICEADDED 8 /dev/snd/controlC0
+SDL_UDEV_DEVICEADDED 3 /dev/input/event6
+SDL_UDEV_DEVICEADDED 4 /dev/input/event5
+SDL_UDEV_DEVICEADDED 4 /dev/input/js0
+SDL_UDEV_DEVICEADDED 8 /dev/snd/seq
+SDL_UDEV_DEVICEADDED 8 /dev/snd/timer
+Input Warning: Joystick #1 doesn't support rumble effect
+Input Warning: Joystick #2 doesn't support rumble effect
+Input Warning: Joystick #3 doesn't support rumble effect
+Input Warning: Joystick #4 doesn't support rumble effect
+Core: Initializing 4 RDRAM modules for a total of 8 MB
+Core: Starting R4300 emulator: Dynamic Recompiler
+Core: Init new dynarec
+Audio: Initializing SDL audio subsystem...
+Audio Warning: dst_size = 4096 != outlen*4 = 4092
+Audio Warning: dst_size = 4096 != outlen*4 = 4092
+Core Status: Stopping emulation.
+Core: R4300 emulator finished.
+Core Status: Rom closed.
