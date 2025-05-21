@@ -15,6 +15,14 @@ echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 
+resolution=$(fbset | grep 'geometry' | awk '{print $2,$3}')
+width=$(echo $resolution | awk '{print $1}')
+height=$(echo $resolution | awk '{print $2}')
+
+cfg_path="$HOME/.config/mupen64plus/mupen64plus.cfg"
+sed -i "/^\s*ScreenWidth\s*=/c\ScreenWidth = $width" "$cfg_path"
+sed -i "/^\s*ScreenHeight\s*=/c\ScreenHeight = $height" "$cfg_path"
+
 gptokeyb -k "mupen64plus" &
 
 ./mupen64plus "$1"
